@@ -1,25 +1,25 @@
 from . import __version__ as app_version
 
-app_name = "tekton_theme"
-app_title = "Tekton Theme"
-app_publisher = "Vinay Rawat"
-app_description = "Tekton"
-app_email = "vineyrawat@yahoo.com"
+app_name = "epiuse_theme"
+app_title = "EPI-USE Theme"
+app_publisher = "Christiaan Swart"
+app_description = "EPI-USE Theme"
+app_email = "christiaan.swart@epiuse.com"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_js =  ["tekton.bundle.js"]
-app_include_css = "tekton.bundle.css"
+app_include_js =  ["epiuse.bundle.js"]
+app_include_css = "epiuse.bundle.css"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/tekton_theme/css/tekton_theme.css"
-# web_include_js = "/assets/tekton_theme/js/tekton_theme.js"
+# web_include_css = "/assets/epiuse_theme/css/epiuse_theme.css"
+# web_include_js = "/assets/epiuse_theme/js/epiuse_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "tekton_theme/public/scss/website"
+# website_theme_scss = "epiuse_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -56,27 +56,27 @@ app_include_css = "tekton.bundle.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "tekton_theme.utils.jinja_methods",
-#	"filters": "tekton_theme.utils.jinja_filters"
+#	"methods": "epiuse_theme.utils.jinja_methods",
+#	"filters": "epiuse_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "tekton_theme.install.before_install"
-# after_install = "tekton_theme.install.after_install"
+# before_install = "epiuse_theme.install.before_install"
+# after_install = "epiuse_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "tekton_theme.uninstall.before_uninstall"
-# after_uninstall = "tekton_theme.uninstall.after_uninstall"
+# before_uninstall = "epiuse_theme.uninstall.before_uninstall"
+# after_uninstall = "epiuse_theme.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "tekton_theme.notifications.get_notification_config"
+# notification_config = "epiuse_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -115,39 +115,39 @@ app_include_css = "tekton.bundle.css"
 
 # scheduler_events = {
 #	"all": [
-#		"tekton_theme.tasks.all"
+#		"epiuse_theme.tasks.all"
 #	],
 #	"daily": [
-#		"tekton_theme.tasks.daily"
+#		"epiuse_theme.tasks.daily"
 #	],
 #	"hourly": [
-#		"tekton_theme.tasks.hourly"
+#		"epiuse_theme.tasks.hourly"
 #	],
 #	"weekly": [
-#		"tekton_theme.tasks.weekly"
+#		"epiuse_theme.tasks.weekly"
 #	],
 #	"monthly": [
-#		"tekton_theme.tasks.monthly"
+#		"epiuse_theme.tasks.monthly"
 #	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "tekton_theme.install.before_tests"
+# before_tests = "epiuse_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 override_whitelisted_methods = {
-	"frappe.core.doctype.user.user.switch_theme": "tekton_theme.overrides.user.user.switch_theme"
+	"frappe.core.doctype.user.user.switch_theme": "epiuse_theme.overrides.user.user.switch_theme"
 }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "tekton_theme.task.get_dashboard_data"
+#	"Task": "epiuse_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -161,13 +161,13 @@ override_whitelisted_methods = {
 
 # Request Events
 # ----------------
-# before_request = ["tekton_theme.utils.before_request"]
-# after_request = ["tekton_theme.utils.after_request"]
+# before_request = ["epiuse_theme.utils.before_request"]
+# after_request = ["epiuse_theme.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["tekton_theme.utils.before_job"]
-# after_job = ["tekton_theme.utils.after_job"]
+# before_job = ["epiuse_theme.utils.before_job"]
+# after_job = ["epiuse_theme.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -197,5 +197,5 @@ override_whitelisted_methods = {
 # --------------------------------
 
 # auth_hooks = [
-#	"tekton_theme.auth.validate"
+#	"epiuse_theme.auth.validate"
 # ]
